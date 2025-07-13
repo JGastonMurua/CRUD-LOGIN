@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏫 Sistema de Gestión Escolar
 
 **Proyecto Final - Curso PHP y MySQL**  
@@ -201,3 +202,6 @@ Este proyecto implementa conceptos de:
 
 
 *Proyecto desarrollado como trabajo final del curso de PHP y MySQL en Tecno 3F. Demuestra competencias en desarrollo web full-stack, manejo de bases de datos y implementación de sistemas CRUD.*
+=======
+# CRUD-LOGIN
+>>>>>>> 89ab57939687edcf0414b87759e44826720ebd0e
