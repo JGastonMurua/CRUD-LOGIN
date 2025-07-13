@@ -1,0 +1,99 @@
+/* 📄 ESTILOS DE PAGINACIÓN */
+.dataTables_wrapper .dataTables_paginate {
+    margin-top: 15px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 8px 12px;
+    margin: 0 2px;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    background: white;
+    color: #495057;
+    transition: all 0.2s ease;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+    transform: translateY(-1px);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #007bff !important;
+    color: white !important;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    background: #f8f9fa;
+    color: #6c757d;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+}
+
+/* 📊 CONTROLES SUPERIORES */
+.dataTables_wrapper .dataTables_length select {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin: 0 5px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin-left: 8px;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+    .dataTables_wrapper .dataTables_length,
+    .dataTables_wrapper .dataTables_filter {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .dataTables_wrapper .dataTables_paginate {
+        text-align: center;
+    }
+    
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    
+    .btn-group .btn {
+        margin-right: 0;
+    }
+}
+
+/* 🎨 BOTONES DE EXPORTACIÓN */
+.dt-buttons {
+    margin-bottom: 15px;
+}
+
+.dt-buttons .btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* 📋 TABLA */
+.table th {
+    white-space: nowrap;
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* 🔢 INFO DE REGISTROS */
+.dataTables_info {
+    font-weight: 500;
+    color: #6c757d;
+}
